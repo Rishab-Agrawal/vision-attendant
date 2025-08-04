@@ -1,0 +1,41 @@
+# === Python artifacts ===
+__pycache__/
+*.py[cod]
+*.pkl
+*.log
+
+# === Environment files ===
+.env
+.venv/
+*.env
+*.json
+
+# === Type checker / Linters ===
+.mypy_cache/
+
+# === IDE settings ===
+.vscode/
+.idea/
+*.swp
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Auto-generated folders/files ===
+*.avi
+*.mp4
+*.mkv
+
+# === Jupyter/Colab (if any) ===
+.ipynb_checkpoints/
+
+# === Dependency management ===
+*.egg-info/
+dist/
+build/
+
+# === Arduino Build Artifacts ===
+*.ino.*.d
+*.ino.*.elf
+*.ino.*.hex
